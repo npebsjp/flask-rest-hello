@@ -49,3 +49,10 @@ def handle_hello():
 if __name__ == '__main__':
     PORT = int(os.environ.get('PORT', 3000))
     app.run(host='0.0.0.0', port=PORT, debug=False)
+
+
+
+excuse = 'The dog eat my homework when I finished'
+who = ['the dog','my granma','his turtle','my bird']
+what = ['eat','pissed','crushed','broked']
+when = ['before the class','right in time','when I finished','during my lunch','while I was praying']
